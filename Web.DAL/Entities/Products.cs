@@ -14,7 +14,7 @@ namespace Web.DAL.Entities
 
         public decimal Price { get; set; }
         public double Discount { get; set; }
-        public string Currency { get; set; }
+        public int Currency { get; set; }
         public string DefaultImage { get; set; }
         public string OriginLinkDetail { get; set; }
         public string Url { get; set; }
