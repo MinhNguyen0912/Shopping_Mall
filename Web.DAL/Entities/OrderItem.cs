@@ -15,9 +15,9 @@ namespace Web.DAL.Entities
         public Guid ProductId { get; set; }
         public Guid PromotionId { get; set; }
         public bool IsDeleted { get; set; }
-        public Guid UpdatedAt { get; set; }
-        public Guid PudatedBy { get; set; }
-        public Guid CreatedAt { get; set; }
+        public DateTime UpdatedAt { get; set; }
+        public Guid Updatedy { get; set; }
+        public DateTime CreatedAt { get; set; }
         public Guid CreatedBy { get; set; }
     }
 }
