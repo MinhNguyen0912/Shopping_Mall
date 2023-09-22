@@ -13,20 +13,20 @@ namespace Web.DAL.Entities
         public string Description { get; set; }
 
         public decimal Price { get; set; }
-        public int Discount { get; set; }
+        public double Discount { get; set; }
         public string Currency { get; set; }
         public string DefaultImage { get; set; }
         public string OriginLinkDetail { get; set; }
         public string Url { get; set; }
-        public string Stock { get; set; }
+        public int Stock { get; set; }
         public Guid StatusId { get; set; }
         public Guid BrandId { get; set; }
         public Guid CategoryId { get; set; }
         public bool IsDeleted { get; set; }
         public DateTime UpdatedAt { get; set; }
-        public string UpdatedBy { get; set; }
+        public Guid UpdatedBy { get; set; }
         public DateTime CreatedAt { get; set; }
-        public string CreatedBy { get; set; }
+        public Guid CreatedBy { get; set; }
 
     }
 }
