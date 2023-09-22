@@ -13,7 +13,7 @@ namespace Web.DAL.Entities
         public double DiscountPercent { get; set; }
         public bool IsDeleted { get; set; }
         public DateTime UpdatedAt { get; set; }
-        public Guid Updatedy { get; set; }
+        public Guid UpdatedBy { get; set; }
         public DateTime CreatedAt { get; set; }
         public Guid CreatedBy { get; set; }
     }
