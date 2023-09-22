@@ -13,7 +13,7 @@ namespace Web.DAL.Entities
         public string CustomerName { get; set; }
         public string PhoneNumber { get; set; }
         public string Address { get; set; }
-        public Double TotalAmount { get; set; }
+        public Decimal TotalAmount { get; set; }
         public string Note { get; set; }
         public string CancelReason { get; set; }
         public Guid StatusId { get; set; }
