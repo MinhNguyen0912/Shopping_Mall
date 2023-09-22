@@ -9,7 +9,7 @@ namespace Web.DAL.Entities
     public class Payment
     {
         public Guid Id { get; set; }
-        public int Amount { get; set; }
+        public Decimal Amount { get; set; }
         public Guid TransactionId { get; set; }
         public int PaymentMethod { get; set; }
         public string PaymentCode { get; set; }
