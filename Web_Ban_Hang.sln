@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Wasm", "Shop_Wasm\Shop.Wasm.csproj", "{39FA5C43-2CA7-4196-8BEF-A7D14492CBB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop_Wasm", "Shop_Wasm\Shop_Wasm.csproj", "{39FA5C43-2CA7-4196-8BEF-A7D14492CBB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.API", "Shop.API\Shop.API.csproj", "{11395D0A-3303-40D4-BCA2-732C6872B293}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.API", "Shop.API\Shop.API.csproj", "{11395D0A-3303-40D4-BCA2-732C6872B293}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.DAL", "Web.DAL\Web.DAL.csproj", "{6CE47B91-A272-448F-9620-A45425393E2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web.DAL", "Web.DAL\Web.DAL.csproj", "{6CE47B91-A272-448F-9620-A45425393E2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.BLL", "Web.BUS\Web.BLL.csproj", "{C55146D6-3D8B-4BD5-A152-71D10ECFD28F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web.BLL", "Web.BUS\Web.BLL.csproj", "{C55146D6-3D8B-4BD5-A152-71D10ECFD28F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
