@@ -10,7 +10,7 @@ namespace Web.DAL.Entities
     {
         public Guid Id { get; set; }
         public string Code { get; set; }
-        public Double DiscountPercent { get; set; }
+        public double DiscountPercent { get; set; }
         public bool IsDeleted { get; set; }
         public DateTime UpdatedAt { get; set; }
         public Guid Updatedy { get; set; }
