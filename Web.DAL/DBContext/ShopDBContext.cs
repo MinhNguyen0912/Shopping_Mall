@@ -29,9 +29,11 @@ namespace Web.DAL.DBContext
             //Thêm các config vào chỗ này
             builder.ApplyConfiguration(new UserConfiguration());
             builder.ApplyConfiguration(new RoleConfiguration());
-
-
-
+            builder.ApplyConfiguration(new OrderConfiguration());
+            builder.ApplyConfiguration(new OrderItemConfiguration());
+            builder.ApplyConfiguration(new StatusConfiguration());
+            builder.ApplyConfiguration(new PaymentConfiguration());
+            builder.ApplyConfiguration(new PromotionConfiguration());
 
 
             foreach (var entityType in builder.Model.GetEntityTypes())
@@ -50,5 +52,10 @@ namespace Web.DAL.DBContext
         //Thêm dbset vào chỗ này
         public DbSet<ApplicationUser> Users { get; set; }
         public DbSet<ApplicationRole> Roles { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderItem> OrdersItems { get; set;}
+        public DbSet<Status> Statuses { get; set; }
+        public DbSet<Payment> Payments { get; set; }
+        public DbSet<Promotion> Promotions { get; set; }
     }
 }
